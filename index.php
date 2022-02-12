@@ -13,7 +13,7 @@
 		
 </header>
 <body>
-	
+	<?php echo "test"; ?>
  <div id="text">
  	<div class="item">
 	 	<p>	

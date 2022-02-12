@@ -1,3 +1,7 @@
+<?php
+	include "bdd_connect.php"
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +17,6 @@
 		
 </header>
 <body>
-	<?php echo "test"; ?>
  <div id="text">
  	<div class="item">
 	 	<p>	

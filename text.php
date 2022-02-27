@@ -7,11 +7,13 @@ $sth = $db->prepare("SELECT * FROM textes");
                  *avec le nom des colonnes sélectionnées en clefs*/
                 $resultat = $sth->fetchAll();
                 
-                /*print_r permet un affichage lisible des résultats,
-                 *<pre> rend le tout un peu plus lisible*/
+                
                 foreach($resultat as $result) {
                 ?> 
-                    <div class="item"><h2><?php echo $result['title'] ?> </h2> <?php echo $result['text']; ?></p></div>
+                    <div onclick="twPleinEcran(this)" class="item">
+                    <h2><?php echo nl2br($result['title']) ?> </h2> <?php echo nl2br($result['text']) ?>
+
+                    </div>
                 <?php
                 }
             

@@ -60,4 +60,7 @@
     }
     </script>
 </body>
+<footer>
+	Mercii
+</footer>
 </html>
